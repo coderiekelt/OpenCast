@@ -45,20 +45,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="EventArgs\ClientConnectedEventArgs.cs" />
-    <Compile Include="EventArgs\ClientDisconnectedEventArgs.cs" />
-    <Compile Include="Network\Connection.cs" />
-    <Compile Include="Network\SimpleServer.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Shoutcast\ShoutcastContext.cs" />
-    <Compile Include="Shoutcast\ShoutcastController.cs" />
-    <Compile Include="Shoutcast\ShoutcastListener.cs" />
-    <Compile Include="Shoutcast\ShoutcastServer.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\OpenCast.Sdk\OpenCast.Sdk.csproj">
+      <Project>{74c7c242-302f-4bb4-a857-e417b2703db7}</Project>
+      <Name>OpenCast.Sdk</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
