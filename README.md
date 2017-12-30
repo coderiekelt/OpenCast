@@ -11,11 +11,17 @@ OpenCast is mono compatible, this means that it will run fine on Windows, Linux 
 
 ## Supported Clients
 OpenCast was tested on the following clients:  
-- Google Chrome (<audio>)  
+- Google Chrome  
 - VLC media player
 
 ## Supported DSPs
-Waive has currently only been tested using `PlayIt live`, however any Shoutcast **v1** source should work.  
-**IceCast / Shoutcast v2 clients do not work.**  
+OpenCast has currently only been tested using `PlayIt live`, however any Shoutcast **v1** source should work.  
+**IceCast / Shoutcast v2 DSPs do not work.**  
   
-Clients must send their data in chunks of maximum **4096 bytes** in order for the payload to be successfully redirect to all clients.
+DSPS must send their data in chunks of maximum **4096 bytes** in order for the payload to be successfully redirected to all clients.
+
+## Roadmap
+- Implement POSIX exit codes to fully support Unix  
+- Implement Metadata support
+- Create some kind of web API for statistics
+- Solve all the bugs (hehe, like that'll happen)
