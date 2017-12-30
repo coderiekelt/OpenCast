@@ -21,6 +21,7 @@ OpenCast has currently only been tested using `PlayIt live`, however any Shoutca
 DSPS must send their data in chunks of maximum **4096 bytes** in order for the payload to be successfully redirected to all clients.
 
 ## Roadmap
+- Fix artifacting when a client disconnectes (minor bleep)  
 - Implement POSIX exit codes to fully support Unix  
 - Implement Metadata support
 - Create some kind of web API for statistics
