@@ -20,7 +20,7 @@ This should then be followed by a final `\r\n` before the actual raw audio data 
 Broadcasting to Shoutcast is a bit different, to start, you must sent the password followed by `\r\n` and await a response:  
 `Password\r\n`  
   
-Shoutcast will then either respond with either:
+Shoutcast will then respond with:
 ```
 OK2\r\n
 icy-caps:11\r\n
