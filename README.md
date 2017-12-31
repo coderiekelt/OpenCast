@@ -7,7 +7,10 @@ To start using OpenCast, launch it once, then modify `server.json` to your likin
 OpenCast is licensed under the MIT license, do with is as you please, credit is always appreciated (it took some time to figure out this protocol.)
 
 ## Cross Platform
-OpenCast is mono compatible, this means that it will run fine on Windows, Linux and Mac OS.
+OpenCast is mono compatible, this means that it will run fine on Windows, Linux and Mac OS.  
+Tested on:  
+- Windows 10  
+- Ubuntu 16.04 (Server)  
 
 ## Supported Clients
 OpenCast was tested on the following clients:  
@@ -21,7 +24,8 @@ OpenCast has currently only been tested using `PlayIt live`, however any Shoutca
 DSPS must send their data in chunks of maximum **4096 bytes** in order for the payload to be successfully redirected to all clients.
 
 ## Roadmap
-- Fix artifacting when a client disconnectes (minor bleep)  
+- ~~Fix artifacting when a client disconnectes (minor bleep)~~  
+- ~~Implement a plugin system with SDK~~ 
 - Implement POSIX exit codes to fully support Unix  
 - Implement Metadata support
 - Create some kind of web API for statistics
