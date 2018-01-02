@@ -1,4 +1,5 @@
 # OpenCast
+**Note that this project is being rewritten as MonoCast, which will support ShoutCast v1, v2 and IceCast**  
 OpenCast is a free and open source implementation of the Shoutcast **v1** protocol.  
   
 To start using OpenCast, launch it once, then modify `server.json` to your likings. Then start the server, and you should be able to enjoy your Shoutcast server!
